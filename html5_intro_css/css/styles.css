@@ -1,50 +1,60 @@
 body {
-    background-color: #712a95;
+    background-color: #000;
 }
 
 #container {
-    background-color: #ffebcd;
+    background-color: #3d1664;
     padding: 20px;
     width: 75%;
     margin: 0 auto;
-    border: 4px solid#72cc39;
+    border: 15px groove #72cc39;
+    box-shadow: 5px 10px blur;
 
 }
 header h1 {
     text-align: center;
     font-size: 75px;
-    color: 	#174f00;
+    color: 	#72cc39;
     text-shadow: 2px 2px 2px #174f00;
+    font-family: Copperplate, fantasy;
 }
 nav {
     text-align: center;}
 nav a {
     font-weight: 100;
     font-size: 30px;
-    color: 	#174f00;
-    text-shadow: 1px 1px 1px #174f00;
+    font-family: Copperplate, fantasy;
+    color: 	#72cc39;
+    text-shadow: 2px 2px 2px #174f00;
     margin: 0 15px;
 }
 nav a:hover {
    text-decoration: none;
     color: 	#6d4992;
 }
+hr {
+border-color: #72cc39;
+}
 main h2 {
     text-align: center;
     font-size: 50px;
-    color: 	#174f00;
-    text-shadow: 1px 1px 1px #174f00;
+    color: 	#72cc39;
+    text-shadow: 2px 2px 2px #174f00;
+    font-family: Copperplate, fantasy;
 }
 main h3 {
     text-align: center;
     font-size: 25px;
-    color: #174f00;
+    color: #72cc39;
+    font-family: Copperplate, fantasy;
    
 }
 main p {
     text-align: center;
     font-size: 17px;
-    color: 	#174f00;
+    color: 	#72cc39;
+    text-shadow: #174f00;
+    font-family: Copperplate, fantasy;
 }
 main img {
     display:block;
@@ -55,8 +65,9 @@ main img {
     background-color: #3d1664 ;
 }
 a {
-    color: #174f00;
+    color: #72cc39;
     font-size: 17px;
+    font-family: Copperplate, fantasy;
 
 }
 a:hover {
@@ -66,5 +77,6 @@ a:hover {
 footer {
     padding: 40px 0;
     text-align: center;
-    color: 	#174f00;
+    color: 	#72cc39;
+    font-family: Copperplate, fantasy;
 }
