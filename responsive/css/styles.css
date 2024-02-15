@@ -1,0 +1,196 @@
+/*Global Styles*/
+img {
+    display:block;
+    width: 90%;
+    margin: 0 auto;
+    border: 10px groove#72cc39;
+    
+}
+body {
+    background-color: #000;
+}
+#container {
+    background-color: #3d1664;
+    padding: 20px;
+    width: 75%;
+    margin: 20px auto;
+    border: 5px groove #72cc39;
+    box-shadow: 5px 10px blur;
+}
+a {
+    color: #72cc39;
+    font-size: 17px;
+    font-family: Copperplate, fantasy;
+   
+}
+
+a:hover {
+    color: #5f0cb2;
+    text-decoration: none;
+}
+
+/*Mobile Styles*/
+
+nav {
+    background-color: #3d1664; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0%;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    font-weight: 100;
+    font-size: 20px;
+    font-family: Copperplate, fantasy;
+    color: 	#72cc39;
+    text-shadow: 2px 2px 2px #174f00;
+margin: 5px auto 5px;
+    background-color:  #000;
+    display: block;
+    width: 200px;
+    height: 30px;
+    line-height: 25px;
+    border: 10px groove#72cc39;
+}
+nav a:hover {
+    text-decoration: none;
+     color: 	#6d4992;}
+
+header h1 {
+        text-align: center;
+        font-size: 25px;
+        color: 	#72cc39;
+        text-shadow: 2px 2px 2px #174f00;
+        font-family: Copperplate, fantasy;
+    }
+    hr {
+        border-color: #72cc39;
+        }
+        main h2 {
+            text-align: center;
+            font-size: 50px;
+            color: 	#72cc39;
+            text-shadow: 2px 2px 2px #174f00;
+            font-family: Copperplate, fantasy;
+        }
+     main h3 {
+            text-align: center;
+            font-size: 25px;
+            color: #72cc39;
+            font-family: Copperplate, fantasy;
+           
+        }
+    
+    main p {
+            text-align: center;
+            font-size: 17px;
+            color: 	#72cc39;
+            text-shadow: #174f00;
+            font-family: Copperplate, fantasy;
+        }
+
+    
+        #lower {
+            border: 5px groove #72cc39;
+            padding: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0%;
+            text-align: center;
+        }
+        li {
+            display: inline-block;
+        }
+        
+         li a {
+            font-weight: 100;
+            font-size: 13px;
+            font-family: Copperplate, fantasy;
+            color: 	#72cc39;
+            text-shadow: 2px 2px 2px #174f00;
+            margin: 0 15px;}
+            .col {
+                padding: 10px;
+                margin: 10px;
+        
+                background-color: #000;
+                border: 4px groove #72cc39;
+                display: block;
+                text-align: center;
+            }
+            p {
+                text-align: center;
+                font-size: 17px;
+                color: 	#72cc39;
+                text-shadow: #174f00;
+                font-family: Copperplate, fantasy;
+            }
+            .button {
+                background-color: #fff;
+                border: 5px groove #72cc39;
+                display: block;
+                text-align: center;
+                width: 150px;
+                height: 40px;
+                line-height: 20px;
+              text-decoration: none;
+            margin: 10px auto;}
+            .button:hover {
+                color: #5f0cb2;
+                text-decoration: none;
+            }
+            footer {
+                padding: 40px 0;
+                text-align: center;
+                color: 	#72cc39;
+                font-family: Copperplate, fantasy;
+            }
+
+/*Tablet Styles*/
+@media (min-width: 768px) {
+    nav {
+        text-align: center;
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav li a {
+        width: 195px;
+    }
+    main img {
+
+        width: 75%;
+       
+    }
+    .col img {
+      width:60% }
+    li a {
+font-size: 15px;
+    }
+}
+/*Desktop Styles*/
+@media (min-width: 1024px) {
+ 
+    #lower {
+    display: flex;
+  }
+    .col {
+        padding: 10px;
+        margin: 10px;
+        width: 33.33%;
+        display: block;
+    text-align: center;
+    }
+    li a {
+        font-size: 30px;
+            }
+
+}
