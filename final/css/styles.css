@@ -15,7 +15,7 @@ body {
     width: 75%;
     margin: 20px auto;
     border: 5px inset #83d3fa;
-    box-shadow: 5px 10px blur;
+    box-shadow: 5px 10px;
 }
 a {
     color: #b62901;
@@ -92,7 +92,6 @@ header h1 {
             text-align: center;
             font-size: 17px;
             color: 	#b62901;
-            text-shadow: #812911;
             font-family: Garamond, serif;
         }
 
@@ -130,7 +129,6 @@ header h1 {
                 text-align: center;
                 font-size: 17px;
                 color: 	#b62901;
-                text-shadow: #812911;
                 font-family: Garamond, serif;
             }
             .button {
