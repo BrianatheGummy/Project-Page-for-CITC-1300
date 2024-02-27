@@ -1,0 +1,196 @@
+/*Global Styles*/
+img {
+    display:block;
+    width: 90%;
+    margin: 0 auto;
+    border: 10px inset #83d3fa;
+    
+}
+body {
+    background-color: #f4f4f4;
+}
+#container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 75%;
+    margin: 20px auto;
+    border: 5px inset #83d3fa;
+    box-shadow: 5px 10px blur;
+}
+a {
+    color: #b62901;
+    font-size: 17px;
+    font-family: Garamond, serif;
+   
+}
+
+a:hover {
+    color: #e146d9;
+    text-decoration: none;
+}
+
+/*Mobile Styles*/
+
+nav {
+    background-color: #f4f4f4; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0%;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    font-weight: 100;
+    font-size: 20px;
+    font-family: Garamond, serif;
+    color: 	#b62901;
+    text-shadow: 2px 2px 2px #812911;
+margin: 5px auto 5px;
+    background-color:  #83d3fa;
+    display: block;
+    width: 200px;
+    height: 30px;
+    line-height: 25px;
+    border: 10px inset #f4f4f4 ;
+}
+nav a:hover {
+    text-decoration: none;
+     color: 	#e146d9;}
+
+header h1 {
+        text-align: center;
+        font-size: 25px;
+        color: 	#e146d9;
+        text-shadow: 2px 2px 2px #ac30a5;
+        font-family: Garamond, serif;
+    }
+    hr {
+        border-color: #83d3fa;
+        }
+        main h2 {
+            text-align: center;
+            font-size: 50px;
+            color: 	#e146d9;
+            text-shadow: 2px 2px 2px #ac30a5;
+            font-family: Garamond, serif;
+        }
+     main h3 {
+            text-align: center;
+            font-size: 25px;
+            color: #e146d9;
+            font-family: Garamond, serif;
+           
+        }
+    
+    main p {
+            text-align: center;
+            font-size: 17px;
+            color: 	#b62901;
+            text-shadow: #812911;
+            font-family: Garamond, serif;
+        }
+
+    
+        #lower {
+            border: 5px inset #83d3fa;
+            padding: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0%;
+            text-align: center;
+        }
+        li {
+            display: inline-block;
+        }
+        
+         li a {
+            font-weight: 100;
+            font-size: 13px;
+            font-family: Garamond, serif;
+            color: 	#b62901;
+            text-shadow: 2px 2px 2px #812911;
+            margin: 0 15px;}
+            .col {
+                padding: 10px;
+                margin: 10px;
+        
+                background-color: #f4f4f4;
+                border: 4px inset #83d3fa;
+                display: block;
+                text-align: center;
+            }
+            p {
+                text-align: center;
+                font-size: 17px;
+                color: 	#b62901;
+                text-shadow: #812911;
+                font-family: Garamond, serif;
+            }
+            .button {
+                background-color: #83d3fa;
+                border: 5px inset #f4f4f4;
+                display: block;
+                text-align: center;
+                width: 150px;
+                height: 40px;
+                line-height: 20px;
+              text-decoration: none;
+            margin: 10px auto;}
+            .button:hover {
+                color: #e146d9;
+                text-decoration: none;
+            }
+            footer {
+                padding: 40px 0;
+                text-align: center;
+                color: 	#812911;
+                font-family: Garamond, serif;
+            }
+
+/*Tablet Styles*/
+@media (min-width: 768px) {
+    nav {
+        text-align: center;
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav li a {
+        width: 195px;
+    }
+    main img {
+
+        width: 75%;
+       
+    }
+    .col img {
+      width:60% }
+    li a {
+font-size: 15px;
+    }
+}
+/*Desktop Styles*/
+@media (min-width: 1024px) {
+ 
+    #lower {
+    display: flex;
+  }
+    .col {
+        padding: 10px;
+        margin: 10px;
+        width: 20%;
+        display: block;
+    text-align: center;
+    }
+    li a {
+        font-size: 30px;
+            }
+
+}
